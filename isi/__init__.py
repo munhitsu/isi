@@ -30,8 +30,9 @@ app.config.setdefault('GITHUBHOOK_CMD', "git pull")
 #TODO: add throttling
 @app.route("/githubhook", methods=['POST'])
 def githubhook():
+    cwd = app.root_path
     def system(cmd):
-        print ''.join(Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, close_fds=True).communicate())
+        print ''.join(Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, close_fds=True, cwd=cwd).communicate())
 
     cmd = app.config['GITHUBHOOK_CMD']
 

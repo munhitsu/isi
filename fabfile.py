@@ -5,7 +5,7 @@ from fabric.contrib.project import rsync_project
 from fabric.operations import reboot
 
 
-RSYNC_EXCLUDE = ['*.pyc','/.hg','/.git','/.idea','/bin','/develop-eggs','eggs', 'parts','.installed.cfg', 'downloads', 'bootstrap.py','/*.egg-info']
+RSYNC_EXCLUDE = ['*.pyc','/.idea','/bin','/develop-eggs','eggs', 'parts','.installed.cfg', 'downloads', 'bootstrap.py','/*.egg-info']
 
 
 def rsync():
