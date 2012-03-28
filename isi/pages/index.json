@@ -1,5 +1,5 @@
 {
-    "template": "default.html",
+    "template": "index.html",
     "title": "ISI",
     "modules": [
         {
