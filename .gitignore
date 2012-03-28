@@ -2,3 +2,10 @@
 *.pyc
 *~
 .DS_Store
+/bin
+/.installed.cfg
+/bootstrap.py
+/develop-eggs
+/eggs
+/isi.egg-info
+/parts
