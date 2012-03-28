@@ -1,6 +1,6 @@
 {
     "template": "index.html",
-    "title": "ISI",
+    "title": "ISI dev",
     "modules": [
         {
             "name":"module 1"
