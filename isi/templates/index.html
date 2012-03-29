@@ -25,9 +25,9 @@
 				<a href=""><img src="img/register.png" alt="Register now" height="66" width="257" /></a>
 			</div>
 			<div class="line"></div>
-			<h2>Instituto de Start-Ups e Inversion</h2>			
+			<h2>{{page.title}}</h2>
 			<div id="location">
-				<h2>March 7th 2012, Spain, Madrid</h2>
+				<h2>{{page.date}}, {{page.location}}</h2>
 			</div>
 		</div>
 		<div id="container">
@@ -38,155 +38,111 @@
 				</div>		
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>Who are we</h3>
+					<h3>{{page.sections.about.title}}</h3>
 					<div class="littleline"></div>
 				</div>
-				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
-					de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de 
-					textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-					como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación 
-					de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo
-					Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-				</p>
+				<p>{{page.sections.about.content}}</p>
+                {% with modules = page.sections.program.modules %}
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>Program</h3>
+					<h3>{{page.sections.program.title}}</h3>
 					<div class="littleline"></div>
 				</div>				
 				<div id="schema">
 					<div id="module1" class="module">
-						<strong>Module 1</strong>
-						<p>Asset Class Easrly stage Investments</p>
+						<strong>{{modules[0].name}}</strong>
+						<p>{{modules[0].title}}</p>
 					</div>
 					<div id="module2" class="module">					
-						<strong>Module 2</strong>
-						<p>Entrepreneurs and Start-up Businesses</p>
+                        <strong>{{modules[1].name}}</strong>
+                        <p>{{modules[1].title}}</p>
 					</div>
 					<div id="module3" class="module">					
-						<strong>Module 3</strong>
-						<p>Investment Proess and Criteria</p>
+                        <strong>{{modules[2].name}}</strong>
+                        <p>{{modules[2].title}}</p>
 					</div>
 					<div id="module4" class="module">
-						<strong>Module 4</strong>
-						<p>Due Diligence and Valuation</p>
+                        <strong>{{modules[3].name}}</strong>
+                        <p>{{modules[3].title}}</p>
 					</div>
 					<div id="module5" class="module">
-						<strong>Module 5</strong>
-						<p>Term Sheet and Investment Contracts</p>
+                        <strong>{{modules[4].name}}</strong>
+                        <p>{{modules[4].title}}</p>
 					</div>
 					<div id="module6" class="module">
-						<strong>Module 6</strong>
-						<p>Deal Closure and Post Investment Phase</p>		
+                        <strong>{{modules[5].name}}</strong>
+                        <p>{{modules[5].title}}</p>
 					</div>
 					<div id="modulesheadline">
 						<h4>
-							Investing in Early Stage Companies
+                            {{page.sections.program.subtitle}}
 						</h4>
 					</div>
 				</div>
 				<div class="threecolumns">
 					<div class="column">
-						<h4>Module 1</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+						<h4>{{modules[0].name}}</h4>
+						<p>{{modules[0].brief}}</p>
 					</div>
 					<div class="column colmargin">
-						<h4>Module 2</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
+                        <h4>{{modules[1].name}}</h4>
+                        <p>{{modules[1].brief}}</p>
 					</div>
 					<div class="column colmargin">
-						<h4>Module 3</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
+                        <h4>{{modules[2].name}}</h4>
+                        <p>{{modules[2].brief}}</p>
 					</div>	
 					<div class="column">
-						<h4>Module 4</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
+                        <h4>{{modules[3].name}}</h4>
+                        <p>{{modules[3].brief}}</p>
 					</div>
 					<div class="column colmargin">
-						<h4>Module 5</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>
+                        <h4>{{modules[4].name}}</h4>
+                        <p>{{modules[4].brief}}</p>
+					</div>4
 					<div class="column colmargin">
-						<h4>Module 6</h4>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
+                        <h4>{{modules[5].name}}</h4>
+                        <p>{{modules[5].brief}}</p>
 					</div>						
+				</div>
+                {% endwith %}
+				<div class="h3container">
+					<div class="littleline"></div>
+					<h3>{{page.sections.past.title}}</h3>
+					<div class="littleline"></div>
+				</div>	
+				<p>{{page.sections.past.content}}</p>
+				<div class="threecolumns">
+                    {% for image in page.sections.past.images %}
+					<div class="column {% if loop.index0 is not divisibleby 3 %}colmargin{% endif %}">
+						<img src="{{image}}" alt="picture" height="116" width="290" />
+					</div>
+                    {% endfor %}
 				</div>
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>Past Events</h3>
+					<h3>{{page.sections.speakers.title}}</h3>
 					<div class="littleline"></div>
 				</div>	
-				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
-					de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de 
-					textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-					como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación 
-					de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo
-					Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-				</p>	
-				<div class="threecolumns">
-					<div class="column">				
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />
-					</div>
-					<div class="column colmargin">				
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-					</div>
-					<div class="column colmargin">				
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-					</div>						
-				</div>				
-				<div class="h3container">
-					<div class="littleline"></div>
-					<h3>Event Speackers</h3>
-					<div class="littleline"></div>
-				</div>	
-				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
-					de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de 
-					textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-					como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación 
-					de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo
-					Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+				<p>{{page.sections.speakers.content}}
 				</p>
 				<div class="threecolumns">
-					<div class="column">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>	
+                    {% for speaker in page.sections.speakers.speakers %}
+					<div class="column {% if loop.index0 is not divisibleby 3 %}colmargin{% endif %}">
+						<h4>{{speaker.name}}: {{loop.index-1}}</h4>
+						<img src="{{speaker.image}}" alt="picture" height="116" width="290" />
+						<p>{{speaker.brief}}</p>
 					</div>
-					<div class="column colmargin">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>
-					<div class="column colmargin">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>	
-					<div class="column">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>
-					<div class="column colmargin">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />				
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>
-					<div class="column colmargin">
-						<h4>John Doe</h4>					
-						<img src="img/pic.gif" alt="picture" height="116" width="290" />					
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>						
-					</div>						
-				</div>	
+                    {% endfor %}
+				</div>
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>Location</h3>
+					<h3>{{page.sections.location.title}}</h3>
 					<div class="littleline"></div>
 				</div>				
+                    <p>{{page.sections.location.content}}</p>
 				<div id="map">
-					<iframe width="938" height="198" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=spain.madrid&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.158465,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Madrid,+Community+of+Madrid,+Madrid,+Spain&amp;t=m&amp;ll=40.418332,-3.70574&amp;spn=0.012938,0.079908&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>		
+					<iframe width="938" height="198" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{page.sections.location.mapurl|safe}}"></iframe>
 				</div>
 				<div id="reg">
 					<a href="">
@@ -200,55 +156,44 @@
 		<div id="partners">
 			<div class="h3container">
 				<div class="littleline"></div>
-				<h3>Our Parthners</h3>
+				<h3>{{page.sections.partners.title}}</h3>
 				<div class="littleline"></div>
 			</div>	
-				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
-					de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de 
-				</p>
+				<p>{{page.sections.partners.content}}</p>
 	
 				<div class="fourcolumns">
-					<div class="fcolumn">				
-						<a href="#"><img src="img/sponsor.png" alt="picture" height="120" width="200" /></a>
+                    {% for partner in page.sections.partners.partners %}
+					<div class="fcolumn {% if loop.index0 is not divisibleby 4 %}fcolmargin{% endif %}">
+						<a href="{{partner.url}}"><img src="{{partner.img}}" alt="picture" height="120" width="200" /></a>
 					</div>
-					<div class="fcolumn fcolmargin">				
-						<a href="#"><img src="img/sponsor.png" alt="picture" height="120" width="200" /></a>									
-					</div>
-					<div class="fcolumn fcolmargin">					
-						<a href="#"><img src="img/sponsor.png" alt="picture" height="120" width="200" /></a>											
-					</div>
-					<div class="fcolumn fcolmargin">					
-						<a href="#"><img src="img/sponsor.png" alt="picture" height="120" width="200" /></a>									
-					</div>											
+                    {% endfor %}
 				</div>
 				<div class="line partnersline"></div>
 		</div>
 		<div id="footer">
 			<div class="threecolumnsfoot">
 				<div class="column">
-					<h4>Contact Us</h4>
-					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
-					<p>Email: <a href="mailto:#">institutodestartup@gmail.com</a></p>
-					<p>Address: New York Plaza, 10004</p>					
+					<h4>{{page.sections.contact.title}}</h4>
+					<p>{{page.sections.contact.content}}</p>
+					<p>Email: <a href="mailto:#">{{page.sections.contact.email}}</a></p>
+					<p>Address: {{page.sections.contact.address}}</p>
 				</div>
 				<div class="column colmargin">
-					<h4>Social Networks</h4>
-					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>	
-					<a href=""><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a>
-					<a href=""><img src="img/twit.png" alt="twitter" height="24" width="24" /></a>					
+					<h4>{{page.sections.social.title}}</h4>
+					<p>{{page.sections.social.content}}</p>
+					<a href="{{page.sections.social.facebook}}"><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a>
+					<a href="{{page.sections.social.twitter}}"><img src="img/twit.png" alt="twitter" height="24" width="24" /></a>
 				</div>
 				<div class="column colmargin">
-					<h4>Links</h4>
+					<h4>{{page.sections.links.title}}</h4>
 					<ul>
-						<li><a href="#">Some related Lorem Ipsum site </a></li>
-						<li><a href="#">Some related site</a></li>	
-						<li><a href="#">Some related site</a></li>	
-						<li><a href="#">Some related site</a></li>						
+                        {% for link in page.sections.links.list %}
+						<li><a href="{{ link.url}}">{{link.title}}</a></li>
+                        {% endfor %}
 				    </ul>
 				</div>						
 			</div>	
-			<p class="copyright">&copy; 2012 Instituto de Start-Ups e Inversion</p>
+			<p class="copyright">{{page.copyright|safe}}</p>
 		</div>
 	</body>
 </html>

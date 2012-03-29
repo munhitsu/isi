@@ -5,7 +5,8 @@ from flask import render_template
 from subprocess import Popen, PIPE
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
+#TODO: disable static="" on production not to duplicate nginx check
 app.config.from_pyfile('settings.cfg')
 pages = JSONPages(app)
 for page in pages:
