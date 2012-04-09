@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>
-			{{page.content.title}}
+			{{title}}
 		</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="description" content="" />
@@ -25,9 +25,9 @@
 				<a href=""><img src="img/register.png" alt="Register now" height="66" width="257" /></a>
 			</div>
 			<div class="line"></div>
-			<h2>{{page.title}}</h2>
+			<h2>{{title}}</h2>
 			<div id="location">
-				<h2>{{page.date}}, {{page.location}}</h2>
+				<h2>{{date}}, {{location}}</h2>
 			</div>
 		</div>
 		<div id="container">
@@ -38,14 +38,14 @@
 				</div>		
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>{{page.sections.about.title}}</h3>
+					<h3>{{sections.about.title}}</h3>
 					<div class="littleline"></div>
 				</div>
-				<p>{{page.sections.about.content}}</p>
-                {% with modules = page.sections.program.modules %}
+				<p>{{sections.about.content}}</p>
+                {% with modules = sections.program.modules %}
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>{{page.sections.program.title}}</h3>
+					<h3>{{sections.program.title}}</h3>
 					<div class="littleline"></div>
 				</div>				
 				<div id="schema">
@@ -75,7 +75,7 @@
 					</div>
 					<div id="modulesheadline">
 						<h4>
-                            {{page.sections.program.subtitle}}
+                            {{sections.program.subtitle}}
 						</h4>
 					</div>
 				</div>
@@ -108,12 +108,12 @@
                 {% endwith %}
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>{{page.sections.past.title}}</h3>
+					<h3>{{sections.past.title}}</h3>
 					<div class="littleline"></div>
 				</div>	
-				<p>{{page.sections.past.content}}</p>
+				<p>{{sections.past.content}}</p>
 				<div class="threecolumns">
-                    {% for image in page.sections.past.images %}
+                    {% for image in sections.past.images %}
 					<div class="column {% if loop.index0 is not divisibleby 3 %}colmargin{% endif %}">
 						<img src="{{image}}" alt="picture" height="116" width="290" />
 					</div>
@@ -121,13 +121,13 @@
 				</div>
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>{{page.sections.speakers.title}}</h3>
+					<h3>{{sections.speakers.title}}</h3>
 					<div class="littleline"></div>
 				</div>	
-				<p>{{page.sections.speakers.content}}
+				<p>{{sections.speakers.content}}
 				</p>
 				<div class="threecolumns">
-                    {% for speaker in page.sections.speakers.speakers %}
+                    {% for speaker in sections.speakers.speakers %}
 					<div class="column {% if loop.index0 is not divisibleby 3 %}colmargin{% endif %}">
 						<h4>{{speaker.name}}: {{loop.index-1}}</h4>
 						<img src="{{speaker.image}}" alt="picture" height="116" width="290" />
@@ -137,12 +137,12 @@
 				</div>
 				<div class="h3container">
 					<div class="littleline"></div>
-					<h3>{{page.sections.location.title}}</h3>
+					<h3>{{sections.location.title}}</h3>
 					<div class="littleline"></div>
 				</div>				
-                    <p>{{page.sections.location.content}}</p>
+                    <p>{{sections.location.content}}</p>
 				<div id="map">
-					<iframe width="938" height="198" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{page.sections.location.mapurl|safe}}"></iframe>
+					<iframe width="938" height="198" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{sections.location.mapurl|safe}}"></iframe>
 				</div>
 				<div id="reg">
 					<a href="">
@@ -156,13 +156,13 @@
 		<div id="partners">
 			<div class="h3container">
 				<div class="littleline"></div>
-				<h3>{{page.sections.partners.title}}</h3>
+				<h3>{{sections.partners.title}}</h3>
 				<div class="littleline"></div>
 			</div>	
-				<p>{{page.sections.partners.content}}</p>
+				<p>{{sections.partners.content}}</p>
 	
 				<div class="fourcolumns">
-                    {% for partner in page.sections.partners.partners %}
+                    {% for partner in sections.partners.partners %}
 					<div class="fcolumn {% if loop.index0 is not divisibleby 4 %}fcolmargin{% endif %}">
 						<a href="{{partner.url}}"><img src="{{partner.img}}" alt="picture" height="120" width="200" /></a>
 					</div>
@@ -173,27 +173,27 @@
 		<div id="footer">
 			<div class="threecolumnsfoot">
 				<div class="column">
-					<h4>{{page.sections.contact.title}}</h4>
-					<p>{{page.sections.contact.content}}</p>
-					<p>Email: <a href="mailto:#">{{page.sections.contact.email}}</a></p>
-					<p>Address: {{page.sections.contact.address}}</p>
+					<h4>{{sections.contact.title}}</h4>
+					<p>{{sections.contact.content}}</p>
+					<p>Email: <a href="mailto:#">{{sections.contact.email}}</a></p>
+					<p>Address: {{sections.contact.address}}</p>
 				</div>
 				<div class="column colmargin">
-					<h4>{{page.sections.social.title}}</h4>
-					<p>{{page.sections.social.content}}</p>
-					<a href="{{page.sections.social.facebook}}"><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a>
-					<a href="{{page.sections.social.twitter}}"><img src="img/twit.png" alt="twitter" height="24" width="24" /></a>
+					<h4>{{sections.social.title}}</h4>
+					<p>{{sections.social.content}}</p>
+					<a href="{{sections.social.facebook}}"><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a>
+					<a href="{{sections.social.twitter}}"><img src="img/twit.png" alt="twitter" height="24" width="24" /></a>
 				</div>
 				<div class="column colmargin">
-					<h4>{{page.sections.links.title}}</h4>
+					<h4>{{sections.links.title}}</h4>
 					<ul>
-                        {% for link in page.sections.links.list %}
+                        {% for link in sections.links.list %}
 						<li><a href="{{ link.url}}">{{link.title}}</a></li>
                         {% endfor %}
 				    </ul>
 				</div>						
 			</div>	
-			<p class="copyright">{{page.copyright|safe}}</p>
+			<p class="copyright">{{copyright|safe}}</p>
 		</div>
 	</body>
 </html>

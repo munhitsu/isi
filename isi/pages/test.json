@@ -1,0 +1,5 @@
+{
+    "template": "debug.html",
+    "title":"test",
+    "expected":"not visible"
+}
