@@ -1,146 +1,146 @@
 {
     "template": "index.html",
-    "title": "Instituto de Start-Ups e Inversion",
-    "date": "March 7th 2012",
-    "location": "Spain, Madrid",
-    "copyright": "&copy; 2012 Instituto de Start-Ups e Inversion",
+    "title": "Instituto de Start-Ups e Inversión",
+    "date": "6 de Julio 2012",
+    "location": "Santiago de Chile",
+    "copyright": "&copy; 2012 Instituto de Start-Ups e Inversión",
     "sections" : {
         "about": {
-            "title": "Who are we",
-            "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+            "title": "Quiénes somos",
+            "content": "El Instituto de Start-Ups e Inversión es una iniciativa sin ánimo de lucro promovida por emprendedores que forman parte del programa Start-Up Chile. El objetivo es dar a conocer a potenciales inversionistas las posibilidades de inversión en startups de tecnología, especialmente en etapas tempranas de desarrollo. Para tal fin se desarrollan unas jornadas de formación dirigidas a inversionistas en las que se tratan los aspectos legales, fiscales y financieros relativos a este tipo de inversiones."
         },
         "program": {
-            "title":"Program",
-            "subtitle":"Investing in Early Stage Companies",
+            "title":"Programa",
+            "subtitle":"Inversión en Proyectos en Etapas Tempranas (Startups)",
             "modules": [
                 {
-                    "name":"Module 1",
-                    "title":"Asset Class Easrly stage Investments",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 1",
+                    "title":"Tipos de activos. Inversión en etapas tempranas",
+                    "brief":"Opciones de financiamiento en las etapas tempranas de emprendimiento. Características y objetivos de los inversionistas angels. Requisitos para ser un inversionista angel. Inversionistas Angels vs Venture Capital. Portafolio de inversiones. Redes de inversionistas y co-inversión."
 
                 },
                 {
-                    "name":"Module 2",
-                    "title":"Entrepreneurs and Start-up Businesses",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 2",
+                    "title":"Emprendedores y Start-Ups",
+                    "brief":"Motivación del emprendedor. Estados de desarrollo de un emprendimiento. Opciones de financiamiento para startups. Factores de éxito de una startup. Dónde encontrar las mejores startups. Caso práctico: amazon.com ."
 
                 },
                 {
-                    "name":"Module 3",
-                    "title":"Investment Proess and Criteria",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 3",
+                    "title":"Proceso de Inversión y Criterios de Selección",
+                    "brief":"Descripción del proceso de inversión y los criterios para seleccionar un emprendimiento. Programas y líneas de financiamiento públicos (Corfo, Start-Up Chile). Implicaciones fiscales de la inversión. Presentación por parte de 3 startups y análisis en grupo."
 
                 },
                 {
-                    "name":"Module 4",
-                    "title":"Due Diligence and Valuation",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 4",
+                    "title":"Due Diligence y Valoración",
+                    "brief":"Due diligence: cómo evaluar el mercado, el equipo gestor, las proyecciones financieras y la propiedad intelectual. Métodos de valoración de empresas."
 
                 },
                 {
-                    "name":"Module 5",
-                    "title":"Term Sheet and Investment Contracts",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 5",
+                    "title":"Term Sheet y Contratos de Inversión",
+                    "brief":"Acciones vs Deuda. Claúsulas generales en las term sheets. Protección del inversionista. TODO: compulsory transger??"
 
                 },
                 {
-                    "name":"Module 6",
-                    "title":"Deal Closure and Post Investment Phase",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
+                    "name":"Módulo 6",
+                    "title":"Acuerdo de Inversión y Seguimiento Post-Inversión",
+                    "brief":"Firma del acuerdo de inversión. Obligaciones de compartir información. Estrategia de salida. Sesión de preguntas y respuestas."
 
                 }
             ]
         },
         "past": {
-            "title":"Past Events",
+            "title":"Eventos recientes. TODO: replace with schedule??",
             "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
             "images":["img/event1.jpg","img/event1.jpg","img/event1.jpg"]
         },
         "speakers": {
-            "title":"Speakers",
-            "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+            "title":"Ponentes",
+            "content": "",
             "speakers":[
                 {
-                    "name":"John Doe",
+                    "name":"Alvaro Rosenblut",
+                    "image":"img/alvaro_rosenblut.jpg",
+                    "brief":"Abogado, partner de la firma TODO"
+                },
+                {
+                    "name":"Juan Carlos Muñoz",
+                    "image":"img/juan_carlos_munoz.jpeg",
+                    "brief":"Inversionista angel con inversiones en TODO"
+                },
+                {
+                    "name":"Michael Waschnig",
+                    "image":"img/michael_waschnig.png",
+                    "brief":"Emprendedor, fundador y CEO de TODO"
+                },
+                {
+                    "name":"Emprendedor Local",
                     "image":"img/speaker1.jpg",
                     "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
                 },
                 {
-                    "name":"John Doe",
+                    "name":"Representante Start-Up Chile",
                     "image":"img/speaker1.jpg",
                     "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
                 },
                 {
-                    "name":"John Doe",
-                    "image":"img/speaker1.jpg",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
-                },
-                {
-                    "name":"John Doe",
-                    "image":"img/speaker1.jpg",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
-                },
-                {
-                    "name":"John Doe",
-                    "image":"img/speaker1.jpg",
-                    "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
-                },
-                {
-                    "name":"John Doe",
+                    "name":"Representante Corfo",
                     "image":"img/speaker1.jpg",
                     "brief":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
                 }
             ]
         },
         "location": {
-            "title":"Location",
-            "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
-            "mapurl": "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=moneda+925&amp;aq=&amp;sll=-33.441827,-70.649579&amp;sspn=0.010099,0.01472&amp;t=h&amp;g=moneda+929&amp;ie=UTF8&amp;hq=&amp;hnear=Moneda+925,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;ll=-33.441827,-70.649579&amp;spn=0.010099,0.01472&amp;z=14&amp;output=embed"
+            "title":"Lugar",
+            "content": "El evento tendrá lugar en el Auditorio de Corfo (Moneda 921, Santiago) el próximo 6 de Julio 2012 a partir de las 9 de la mañana.",
+            "mapurl": "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=moneda+921&amp;aq=&amp;sll=-33.441827,-70.649579&amp;sspn=0.010099,0.01472&amp;t=h&amp;g=moneda+929&amp;ie=UTF8&amp;hq=&amp;hnear=Moneda+921,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;ll=-33.441827,-70.649579&amp;spn=0.010099,0.01472&amp;z=14&amp;output=embed"
         },
         "partners": {
-            "title":"Our Partners",
-            "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+            "title":"Auspiciadores",
+            "content":"Esta iniciativa cuenta con el apoyo de Corfo, Start-Up Chile y Chile Global Angels.",
             "partners":[
                 {
-                    "img":"img/sponsor.png",
-                    "url":"#"
+                    "img":"img/logo-corfo.jpg",
+                    "url":"http://www.corfo.cl"
                 },
                 {
-                    "img":"img/sponsor.png",
-                    "url":"#"
+                    "img":"img/logo-sup.jpg",
+                    "url":"http://www.startupchile.org"
                 },
                 {
-                    "img":"img/sponsor.png",
-                    "url":"#"
+                    "img":"img/chileglobalangels.png",
+                    "url":"http://www.chileglobalangels.cl"
                 }
             ]
         },
         "contact":{
-            "title":"Contact Us",
-            "content":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
-            "email":"institutodestartup@gmail.com",
-            "address":"New York Plaza, 10004"
+            "title":"Contacto",
+            "content":"",
+            "email":"info@isichile.org",
+            "address":"Moneda 921, Santiago, Chile"
         },
         "social":{
-            "title":"Social Networks",
-            "content":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+            "title":"Síguenos en",
+            "content":"",
             "facebook":"#",
-            "twitter":"#"
+            "twitter":"http://twitter.com/isichile"
         },
         "links":{
-            "title":"Links",
+            "title":"Enlaces",
             "list": [
                 {
-                    "title":"some link",
-                    "url":"#"
+                    "title":"Corfo",
+                    "url":"http://www.corfo.cl"
                 },
                 {
-                    "title":"some link",
-                    "url":"#"
+                    "title":"Start-Up Chile",
+                    "url":"http://www.startupchile.org"
                 },
                 {
-                    "title":"some link",
-                    "url":"#"
+                    "title":"Chile Global Angels",
+                    "url":"http://www.chileglobalangels.cl"
                 }
             ]
         }
