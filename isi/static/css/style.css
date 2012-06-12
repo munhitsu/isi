@@ -214,27 +214,27 @@ position:absolute;
 }
 
 #module1{
-margin:39px 0px 0px 137px;
-}
-
-#module2{
 margin:39px 0px 0px 429px;
 }
 
-#module3{
+#module2{
 margin:238px 0px 0px 560px;
 }
 
-#module4{
+#module3{
 margin:458px 0px 0px 429px;
 }
 
-#module5{
+#module4{
 margin:458px 0px 0px 137px;
 }
 
-#module6{
+#module5{
 margin:238px 0px 0px 12px;
+}
+
+#module6{
+margin:39px 0px 0px 137px;
 }
 
 #modulesheadline{
