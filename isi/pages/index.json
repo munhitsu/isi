@@ -87,11 +87,15 @@
             "content":"Esta iniciativa cuenta con el apoyo de CORFO, Start-Up Chile y Chile Global Angels.",
             "partners":[
                 {
-                    "img":"img/logo-corfo.jpg",
+                    "img":"img/logo-gob.png",
+                    "url":"http://www.startupchile.org"
+                },
+                {
+                    "img":"img/logo-corfo.png",
                     "url":"http://www.corfo.cl"
                 },
                 {
-                    "img":"img/logo-sup.jpg",
+                    "img":"img/logo-sup.png",
                     "url":"http://www.startupchile.org"
                 },
                 {
