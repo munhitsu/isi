@@ -104,7 +104,7 @@ color:#00597a;
 }
 
 #header{
-background: url("../img/light.png") no-repeat top center; 
+background: url("/img/light.png") no-repeat top center; 
 width:950px;
 margin:0 auto;
 }
@@ -125,7 +125,7 @@ margin-top:44px;
 }
 
 #location{
-background: url("../img/location_image.png") no-repeat; 
+background: url("/img/location_image.png") no-repeat; 
 width:786px;
 height:270px;
 margin:0 auto;
@@ -144,7 +144,7 @@ margin:10px 0px 36px 0px;
 
 #container{
 margin-top:50px;
-background: url("../img/containerbg.png"); 
+background: url("/img/containerbg.png"); 
 }
 
 #content{
@@ -154,7 +154,7 @@ text-align:left;
 }
 
 #downarrow{
-background: url("../img/downarrow.png") no-repeat;
+background: url("/img/downarrow.png") no-repeat;
 width:20px;
 height:14px;
 position:absolute;
@@ -162,7 +162,7 @@ margin:-2px 0px 0px 470px;
 }
 
 .separator{
-background: url("../img/separator.png") repeat-x;
+background: url("/img/separator.png") repeat-x;
 height:5px;
 font-size:0px;
 }
@@ -187,7 +187,7 @@ margin-top:24px;
 }
 
 #schema{
-background: url("../img/schema.png") no-repeat;
+background: url("/img/schema.png") no-repeat;
 width:707px;
 height:652px;
 margin:0 auto;
@@ -214,27 +214,27 @@ position:absolute;
 }
 
 #module1{
-margin:39px 0px 0px 137px;
-}
-
-#module2{
 margin:39px 0px 0px 429px;
 }
 
-#module3{
+#module2{
 margin:238px 0px 0px 560px;
 }
 
-#module4{
+#module3{
 margin:458px 0px 0px 429px;
 }
 
-#module5{
+#module4{
 margin:458px 0px 0px 137px;
 }
 
-#module6{
+#module5{
 margin:238px 0px 0px 12px;
+}
+
+#module6{
+margin:39px 0px 0px 137px;
 }
 
 #modulesheadline{
@@ -259,10 +259,10 @@ margin-left:22px;
 }
 
 .threecolumns img{
-background: url("../img/picbg.png") no-repeat;
+background: url("/img/picbg.png") no-repeat;
 padding:5px 6px 7px 6px;
-width:290px;
-height:116px;
+/*width:290px;*/
+/*height:116px;*/
 margin-top:15px;
 }
 
@@ -279,12 +279,12 @@ text-align:center;
 padding-top:5px;
 width:950px;
 height:206px;
-background: url("../img/map.png") no-repeat;
+background: url("/img/map.png") no-repeat;
 margin-top:25px;
 }
 
 #partners{
-background: url("../img/light2.png") no-repeat top center; 
+background: url("/img/light2.png") no-repeat top center; 
 width:950px;
 margin:0 auto;
 text-align:left;
