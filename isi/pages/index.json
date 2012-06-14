@@ -57,7 +57,7 @@
             "images":["img/event1.jpg","img/event1.jpg","img/event1.jpg"]
         },
         "speakers": {
-            "title":"Ponentes",
+            "title":"Expositores",
             "content": "",
             "speakers":[
                 {
@@ -79,8 +79,8 @@
         },
         "location": {
             "title":"Lugar",
-            "content": "El evento tendrá lugar en el Auditorio de CORFO (Moneda 921, Santiago) el próximo 6 de Julio 2012 a partir de las 9 de la mañana.",
-            "mapurl": "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=moneda+921&amp;aq=&amp;sll=-33.441827,-70.649579&amp;sspn=0.010099,0.01472&amp;t=h&amp;g=moneda+929&amp;ie=UTF8&amp;hq=&amp;hnear=Moneda+921,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;ll=-33.441827,-70.649579&amp;spn=0.010099,0.01472&amp;z=14&amp;output=embed"
+            "content": "El evento tendrá lugar en el Centro Movistar Innova (Av. Providencia 229, Santiago) el próximo 6 de Julio 2012 a partir de las 9 de la mañana.",
+            "mapurl": "https://maps.google.cl/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Av.+Providencia+229,+Santiago,+Chile&amp;aq=&amp;sll=-33.434032,-70.594148&amp;sspn=0.085953,0.181789&amp;ie=UTF8&amp;hq=&amp;hnear=Providencia+229,+Providencia,+Santiago,+Regi%C3%B3n+Metropolitana&amp;ll=-33.436088,-70.630748&amp;spn=0.010744,0.022724&amp;t=m&amp;z=14&amp;output=embed"
         },
         "partners": {
             "title":"Auspiciadores",
@@ -103,8 +103,8 @@
         "contact":{
             "title":"Contacto",
             "content":"",
-            "email":"contacto@isichile.org",
-            "address":"Moneda 921, Santiago, Chile"
+            "email":"michael.waschnig@infinu.com",
+            "address":"Centro Movistar Innova, Av. Providencia 229, Santiago, Chile"
         },
         "social":{
             "title":"Síguenos en",
