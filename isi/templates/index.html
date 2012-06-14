@@ -101,14 +101,14 @@
 					<div class="column colmargin">
                         <h4>{{modules[4].name}}</h4>
                         <p>{{modules[4].brief}}</p>
-					</div>4
+					</div>
 					<div class="column colmargin">
                         <h4>{{modules[5].name}}</h4>
                         <p>{{modules[5].brief}}</p>
 					</div>						
 				</div>
                 {% endwith %}
-				<div class="h3container">
+				<!-- div class="h3container">
 					<div class="littleline"></div>
 					<h3>{{sections.past.title}}</h3>
 					<div class="littleline"></div>
@@ -120,7 +120,7 @@
 						<img src="{{image}}" alt="picture" height="116" width="290" />
 					</div>
                     {% endfor %}
-				</div>
+				</div -->
 				<div class="h3container">
 					<div class="littleline"></div>
 					<h3>{{sections.speakers.title}}</h3>
@@ -131,8 +131,8 @@
 				<div class="threecolumns">
                     {% for speaker in sections.speakers.speakers %}
 					<div class="column {% if loop.index0 is not divisibleby 3 %}colmargin{% endif %}">
-						<h4>{{speaker.name}}: {{loop.index-1}}</h4>
-						<img src="{{speaker.image}}" alt="picture" height="116" width="290" />
+						<h4>{{speaker.name}}</h4>
+						<img src="{{speaker.image}}" alt="{{ speaker.name }}" />
 						<p>{{speaker.brief}}</p>
 					</div>
                     {% endfor %}
@@ -166,7 +166,7 @@
 				<div class="fourcolumns">
                     {% for partner in sections.partners.partners %}
 					<div class="fcolumn {% if loop.index0 is not divisibleby 4 %}fcolmargin{% endif %}">
-						<a href="{{partner.url}}"><img src="{{partner.img}}" alt="picture" height="120" width="200" /></a>
+						<a href="{{partner.url}}"><img src="{{partner.img}}" alt="picture" /></a>
 					</div>
                     {% endfor %}
 				</div>
@@ -183,7 +183,7 @@
 				<div class="column colmargin">
 					<h4>{{sections.social.title}}</h4>
 					<p>{{sections.social.content}}</p>
-					<a href="{{sections.social.facebook}}"><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a>
+					<!-- a href="{{sections.social.facebook}}"><img src="img/faceb.png" alt="facebook" height="24" width="24" /></a -->
 					<a href="{{sections.social.twitter}}"><img src="img/twit.png" alt="twitter" height="24" width="24" /></a>
 				</div>
 				<div class="column colmargin">
