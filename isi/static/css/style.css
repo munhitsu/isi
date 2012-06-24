@@ -313,6 +313,24 @@ margin-left:50px;
 margin-top:15px;
 }
 
+.partnerscolumns{
+overflow:hidden;
+width:950px;
+}
+
+.pcolumn{
+float:left;
+width:302px;
+}
+
+.pcolmargin{
+margin-left:22px;
+}
+
+.pcolumn img{
+margin-top:15px;
+}
+
 .partnersline{
 margin:0px;
 margin-top:45px;
