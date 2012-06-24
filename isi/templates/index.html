@@ -160,10 +160,9 @@
 				<div class="littleline"></div>
 			</div>	
 				<p>{{sections.partners.content}}</p>
-	
-				<div class="fourcolumns">
+				<div class="partnerscolumns">
                     {% for partner in sections.partners.partners %}
-					<div class="fcolumn {% if loop.index0 is not divisibleby 4 %}fcolmargin{% endif %}">
+					<div class="pcolumn {% if loop.index0 is not divisibleby 3 %}pcolmargin{% endif %}">
 						<a href="{{partner.url}}"><img src="{{partner.img}}" alt="picture" /></a>
 					</div>
                     {% endfor %}

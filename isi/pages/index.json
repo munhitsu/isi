@@ -67,6 +67,11 @@
                     "brief":"Abogado, partner de la firma de abogados Albagli Zaliasnik."
                 },
                 {
+                    "name":"Mauricio Thibaut",
+                    "image":"img/mauricio_thibaut.jpg",
+                    "brief":"Gerente Red de Ángeles DICTUC."
+                },
+                {
                     "name":"Juan Carlos Muñoz",
                     "image":"img/juan_carlos_munoz.jpeg",
                     "brief":"Inversionista angel y presidente de Chile Global Angels."
@@ -85,7 +90,7 @@
         },
         "partners": {
             "title":"Auspiciadores",
-            "content":"Esta iniciativa cuenta con el apoyo de CORFO, Start-Up Chile y Chile Global Angels.",
+            "content":"Esta iniciativa cuenta con el apoyo de CORFO, Start-Up Chile, Onírico Eventos, Chile Global Angels y Angeles DICTUC.",
             "partners":[
                 {
                     "img":"img/logo-gob.png",
@@ -100,8 +105,16 @@
                     "url":"http://www.startupchile.org"
                 },
                 {
+                    "img":"img/startupeventscl.png",
+                    "url":"http://www.onirico.cl"
+                },
+                {
                     "img":"img/chileglobalangels.png",
                     "url":"http://www.chileglobalangels.cl"
+                },
+                {
+                    "img":"img/dictuc.gif",
+                    "url":"http://www.dictuc.cl/angeles/"
                 }
             ]
         },
@@ -129,8 +142,16 @@
                     "url":"http://www.startupchile.org"
                 },
                 {
+                    "title":"Onírico Eventos",
+                    "url":"http://www.onirico.cl"
+                },
+                {
                     "title":"Chile Global Angels",
                     "url":"http://www.chileglobalangels.cl"
+                },
+                {
+                    "title":"Angeles DICTUC",
+                    "url":"http://www.dictuc.cl/angeles/"
                 }
             ]
         }
