@@ -77,6 +77,11 @@
                     "brief":"Inversionista angel y presidente de Chile Global Angels."
                 },
                 {
+                    "name":"Felipe Camposano",
+                    "image":"img/felipe_camposano.png",
+                    "brief":"General Partner en Austral Capital."
+                },
+                {
                     "name":"Michael Waschnig",
                     "image":"img/michael_waschnig.png",
                     "brief":"Emprendedor, fundador y CEO de www.infinu.com"
@@ -90,7 +95,7 @@
         },
         "partners": {
             "title":"Auspiciadores",
-            "content":"Esta iniciativa cuenta con el apoyo de CORFO, Start-Up Chile, Onírico Eventos, Chile Global Angels y Angeles DICTUC.",
+            "content":"Esta iniciativa cuenta con el apoyo de CORFO, Start-Up Chile, Chile Global Angels, Angeles DICTUC, Onírico Eventos, Movistar y AndesBeat.",
             "partners":[
                 {
                     "img":"img/logo-gob.png",
@@ -105,23 +110,35 @@
                     "url":"http://www.startupchile.org"
                 },
                 {
-                    "img":"img/startupeventscl.png",
-                    "url":"http://www.onirico.cl"
+                    "img":"img/escfb-logo.jpg",
+                    "url":"http://www.EyeSpyCat.co.uk"
+                },
+                {
+                    "img":"img/dictuc.gif",
+                    "url":"http://www.dictuc.cl/angeles/"
                 },
                 {
                     "img":"img/chileglobalangels.png",
                     "url":"http://www.chileglobalangels.cl"
                 },
                 {
-                    "img":"img/dictuc.gif",
-                    "url":"http://www.dictuc.cl/angeles/"
+                    "img":"img/startupeventscl.png",
+                    "url":"http://www.onirico.cl"
+                },
+                {
+                    "img":"img/movistar-logo.gif",
+                    "url":"http://www.movistar.cl"
+                },
+                {
+                    "img":"img/andesbeat-logo.png",
+                    "url":"http://andesbeat.com"
                 }
             ]
         },
         "contact":{
             "title":"Contacto",
             "content":"",
-            "email":"michael.waschnig@infinu.com",
+            "email":"michael.waschnig@infinu.com - garribas@gmail.com",
             "address":"Centro Movistar Innova, Av. Providencia 229, Santiago, Chile"
         },
         "social":{
@@ -142,16 +159,28 @@
                     "url":"http://www.startupchile.org"
                 },
                 {
-                    "title":"Onírico Eventos",
-                    "url":"http://www.onirico.cl"
-                },
-                {
                     "title":"Chile Global Angels",
                     "url":"http://www.chileglobalangels.cl"
                 },
                 {
                     "title":"Angeles DICTUC",
                     "url":"http://www.dictuc.cl/angeles/"
+                },
+                {
+                    "title":"Catherine Allen",
+                    "url":"http://www.EyeSpyCat.co.uk"
+                },
+                {
+                    "title":"Onírico Eventos",
+                    "url":"http://www.onirico.cl"
+                },
+                {
+                    "title":"Movistar",
+                    "url":"http://www.movistar.cl"
+                },
+                {
+                    "title":"AndesBeat",
+                    "url":"http://andesbeat.com"
                 }
             ]
         }
