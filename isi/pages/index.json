@@ -8,7 +8,7 @@
     "sections" : {
         "about": {
             "title": "Quiénes somos",
-            "content": "El Instituto de Start-Ups e Inversión es una iniciativa sin ánimo de lucro promovida por emprendedores del programa Start-Up Chile en colaboración con redes de inversionates angeles y CORFO. El objetivo es dar a conocer a potenciales inversionistas las oportunidades de inversión en emprendimientos con alto potencial de crecimiento. Para tal fin se ofrece una sesión de formación dirigida a inversionistas en las que se tratan los aspectos fundamentales de la inversión en start-ups."
+            "content": "El Instituto de Start-Ups e Inversión es una iniciativa sin fines de lucro promovida por emprendedores del programa Start-Up Chile en colaboración con redes de inversionates ángeles y CORFO. El objetivo es dar a conocer a potenciales inversionistas las oportunidades de inversión en emprendimientos con alto potencial de crecimiento. Para tal fin se ofrece una sesión de formación dirigida a inversionistas en las que se tratan los aspectos fundamentales de la inversión en start-ups."
         },
         "program": {
             "title":"Programa",
@@ -17,7 +17,7 @@
                 {
                     "name":"Módulo 1",
                     "title":"Tipos de activos - Inversión en etapas tempranas",
-                    "brief":"Opciones de financiamiento en las etapas tempranas del emprendimiento. Características y objetivos de los inversionistas angels. Requisitos para ser un inversionista angel. Inversionistas Angels vs Venture Capital. Portafolio de inversiones. Redes de inversionistas y co-inversión."
+                    "brief":"Opciones de financiamiento en las etapas tempranas del emprendimiento. Características y objetivos de los inversionistas ángeles. Requisitos para ser un inversionista ángel. Inversionistas Angels vs Venture Capital. Portafolio de inversiones. Redes de inversionistas y co-inversión."
 
                 },
                 {
@@ -74,12 +74,17 @@
                 {
                     "name":"Juan Carlos Muñoz",
                     "image":"img/juan_carlos_munoz.jpeg",
-                    "brief":"Inversionista angel y presidente de Chile Global Angels."
+                    "brief":"Inversionista ángel y presidente de Chile Global Angels."
                 },
                 {
                     "name":"Felipe Camposano",
                     "image":"img/felipe_camposano.png",
                     "brief":"General Partner en Austral Capital."
+                },
+                {
+                    "name":"Andrés Gassibe",
+                    "image":"img/andres_gassibe.jpg",
+                    "brief":"Inversionsita ángel."
                 },
                 {
                     "name":"Michael Waschnig",
@@ -126,8 +131,8 @@
                     "url":"http://www.onirico.cl"
                 },
                 {
-                    "img":"img/movistar-logo.gif",
-                    "url":"http://www.movistar.cl"
+                    "img":"img/movistar-logo.png",
+                    "url":"http://www.movistarinnova.cl"
                 },
                 {
                     "img":"img/andesbeat-logo.png",
@@ -175,8 +180,8 @@
                     "url":"http://www.onirico.cl"
                 },
                 {
-                    "title":"Movistar",
-                    "url":"http://www.movistar.cl"
+                    "title":"Movistar Innova",
+                    "url":"http://www.movistarinnova.cl"
                 },
                 {
                     "title":"AndesBeat",
